@@ -1,0 +1,302 @@
+@font-face {
+    font-family: Attentica4F;
+    src: url(fonts/Attentica4FUltraLight.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(217, 217, 217);
+}
+
+.header-main {
+    margin-left: 115px;
+    margin-right: 125px;
+    overflow: hidden;
+}
+
+.header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #6d6d6d;
+}
+
+.header-search {
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.div-call {
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 1px solid white;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-left: 115px;
+}
+
+.call {
+    background-color: #ff2e2e;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto";
+    position: relative;
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+}
+
+.label-search {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: 125px;
+}
+
+.search-input {
+    font-family: "Roboto";
+    height: auto;
+    width: 360px;
+    background-color: white;
+    color: #6d6d6d;
+    padding-left: 15px;
+    border: 1px solid rgb(199, 199, 199);
+    border-right: none;
+}
+
+/*_____________________*/
+
+.header-info {
+    padding-top: 18px;
+    display: flex;
+    align-content: stretch;
+    font-family: "Roboto";
+    color: #6d6d6d;
+    line-height: 1.714;
+    font-size: 14px;
+}
+
+.info-1 {
+    height: 140px;
+    flex: 1;
+}
+
+.adress {
+    padding-bottom: 15px;
+}
+
+.adress:before {
+    display: inline-block;
+    content: '';
+    background-image: url(images/loco.png);
+    padding-top: 14px;
+    padding-left: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    height: 140px;
+    flex: 2;
+}
+
+.img-content {
+    display: block;
+    margin: 0 auto;
+}
+
+.phones {
+    padding-bottom: 15px;
+}
+
+.phones:before {
+    display: inline-block;
+    content: '';
+    background-image: url(images/phone.png);
+    padding-top: 14px;
+    padding-left: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.info-2 {
+    height: 140px;
+    flex: 1;
+    text-align: right;
+}
+
+.ul-flex {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item {
+    color: white;
+    background: rgb(110, 110, 110);
+    height: 48px;
+    flex: 0 277px;
+}
+
+.menu-link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-family: "Attentica4F";
+    font-size: 24px;
+    background: rgb(110, 110, 110);
+    color: white;
+    line-height: 1.2;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-link:hover {
+    background: #ff2e2e;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 63px;
+}
+
+.img {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    flex: 0 277px;
+    padding: 15px;
+}
+
+.img-content-main {
+    display: block;
+    width: 330px;
+    height: 240px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+
+.info-main {
+    display: inline-block;
+    background: white;
+}
+
+.information {
+    height: 25px;
+    width: 130px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-content: stretch;
+    margin-left: 115px;
+    margin-right: 125px;
+    font-family: "Roboto";
+    color: #464544;
+    background: none;
+}
+
+.end1 {
+    font-size: 15px;
+    flex: 1;
+    line-height: 1.5;
+    background: none;
+}
+
+.social {
+    text-align: center;
+    flex: 2;
+    background: #f4f3f1;
+}
+
+.end2 {
+    border: none;
+    font-size: 25px;
+    background: none;
+}
+
+.link {
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.button {
+    border-right: none;
+    float: right;
+    margin-top: 15px;
+}
+
+.icons {
+    margin-left: 40px;
+    margin-top: 20px;
+    background: none;
+}
+
+.text {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    background: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    top:30%;
+    left:30%;
+}
+
+.footer {
+    height: auto;
+    background-color: #f4f3f1;
+    padding-top: 50px;
+
+}
+
+strong {
+    background: none;
+}
+
+.protect {
+    padding-left: 115px;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(195, 193, 193);
+    line-height: 2;
+    background: #6d6d6d;
+}
+
+.submit_search {
+    background-image: url(images/linz.png);
+    height: 37px;
+    width: 36px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #cccccc;
+    border-left: none;
+}
+
